@@ -19,7 +19,7 @@ namespace Enhanced_API.Routes {
                 try {
                     ulong steamId = Convert.ToUInt64(parameters.steamId);
 
-                    IMyPlayer player = Torch.CurrentSession.Managers.GetManager<IMultiplayerManagerBase>().GetPlayerBySteamId(steamId);
+                    IMyPlayer player = EnhancedAPI.Instance.Torch.CurrentSession.Managers.GetManager<IMultiplayerManagerBase>().GetPlayerBySteamId(steamId);
 
                     return player;
                 } catch {
