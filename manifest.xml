@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<PluginManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Name>Enchanced Api</Name>
+	<Guid>5bcd818f-264d-4fe9-b760-424d58ce310a</Guid>
+	<Repository>None</Repository>
+	<Version>v1.0.0</Version>
+</PluginManifest>
