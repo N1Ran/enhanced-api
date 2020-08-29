@@ -4,9 +4,8 @@ using Torch.API;
 
 namespace Enhanced_API {
     public class EnhancedAPI {
-        public static EnhancedAPI Instance { get; set; }
         public class EnhancedAPIPlugin : TorchPluginBase {
-
+        public static EnhancedAPIPlugin Instance { get; set; }
             public static readonly Logger Log = LogManager.GetLogger("EnhancedAPI");
 
             public override void Init(ITorchBase torch) {
